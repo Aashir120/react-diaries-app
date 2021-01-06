@@ -1,0 +1,105 @@
+.navbar {
+    width: 100%;
+    height: 80px;
+    color: black;
+    margin-top: -40px;
+    font-weight: bold;
+    justify-content: center;
+    background: linear-gradient(0deg, blue 3%, aqua 20%);
+}
+
+.navbar ol {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    font-size: 40px;
+}
+
+.navbar-li {
+    margin-left: 42%;
+    margin-top: 12px;
+}
+
+.login-li {
+    margin-left: 35% !important;
+    margin-top: 5px;
+    height: 60px;
+    width: 100px;
+    border-radius: 10%;
+    background-color: chartreuse;
+    border: 2px solid black;
+}
+
+.login {
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 24px !important;
+}
+
+.login-li:hover {
+    background-color: green;
+    opacity: 0.8;
+}
+
+.login:hover {
+    color: #fff;
+}
+
+.img-logo {
+    position: absolute;
+    top: 20%;
+    left: 42%;
+    width: 250px;
+    height: 250px;
+    -webkit-animation: spin 4s linear infinite;
+    -moz-animation: spin 4s linear infinite;
+    animation: spin 4s linear infinite;
+}
+
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    overflow-y: auto;
+    background: radial-gradient(blue, aqua);
+    flex-wrap: wrap-reverse;
+    box-sizing: border-box;
+    text-shadow: 2px 2px 7px rgba(0, 100, 0, .7);
+}
+
+.content ol {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+}
+
+.heading {
+    font-size: 40px;
+    color: #fff;
+    margin-top: 100px;
+}
